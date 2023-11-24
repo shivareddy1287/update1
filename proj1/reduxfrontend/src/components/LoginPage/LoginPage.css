@@ -1,0 +1,81 @@
+.cs_bg_login {
+  background-color: #f1f3f6;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+.cs_card_login {
+  background-color: #fff;
+  width: 38%;
+  padding: 1rem 1.6rem;
+  height: 25rem;
+  box-shadow: -0.5rem 0 0 rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: space-between; */
+}
+.cs_card_login_head_div {
+  margin-bottom: 1rem;
+}
+.cs_card_login_heading {
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+.cs_card_login_para {
+  font-size: 1rem;
+  font-weight: 500;
+
+  padding: 0;
+}
+.cs_card_login_email {
+  background-color: #f8f8f8;
+
+  width: 90%;
+  border: none;
+  font-size: 1rem;
+  margin: 0rem 0.5rem 0rem 0.5rem;
+  padding: 1rem;
+}
+
+.cs_card_login_email:focus {
+  background-color: #f8f8f8;
+
+  width: 90%;
+  border: none;
+  outline: none;
+}
+
+.cs_card_login_button {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 90%;
+  background-color: #3b82f6; /* Replace with your desired color */
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  font-weight: 700;
+  border-radius: 9999px; /* A large value to make it round */
+  border: none;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.cs_card_login_button:hover {
+  background-color: #2563eb; /* Replace with your desired hover color */
+  /* You can add more hover-specific styles here */
+}
+
+.cs_card_login_error {
+  font-size: 1rem;
+  color: red;
+  margin: 0.5rem;
+}
